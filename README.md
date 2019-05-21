@@ -17,10 +17,6 @@ These dependencies can be installed with:
 pip install -r requirements.txt
 `
 
-Optionally, you can use the Anaconda package manager as follows:
-- Create a new environment: run `conda env create -f environment.yml` followed by `source activate enorm`
-- Update your current environment: run `conda update -f environment.yml`
-
 ## How to use ENorm
 
 The training procedure consists in performing one ENorm cycle (iterating ENorm on the entire network once) after each SGD step as detailed below.
