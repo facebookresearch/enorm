@@ -1,0 +1,6 @@
+name: enorm
+channels:
+ - pytorch
+dependencies:
+ - python>=3
+ - pytorch>=1.0

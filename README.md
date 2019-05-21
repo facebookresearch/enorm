@@ -17,11 +17,9 @@ These dependencies can be installed with:
 pip install -r requirements.txt
 `
 
-## Installation
-Install ENorm by cloning the repository, cd into it and running:
-```bash
-python setup.py install
-```
+Optionally, you can use the Anaconda package manager as follows:
+- Create a new environment: run `conda env create -f environment.yml` followed by `source activate enorm`
+- Update your current environment: run `conda update -f environment.yml`
 
 ## How to use ENorm
 
